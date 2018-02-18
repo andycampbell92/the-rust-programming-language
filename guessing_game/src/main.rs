@@ -22,9 +22,6 @@ fn main() {
     println!("The Secret number is: {}", secret_number);
 
     loop {
-        
-        
-
         let guess: u32 = match do_guess().trim().parse() {
             Ok(num) => num,
             Err(_) => continue,
