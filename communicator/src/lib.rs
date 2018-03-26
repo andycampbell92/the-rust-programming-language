@@ -5,5 +5,5 @@ mod tests {
     }
 }
 
-mod client;
-mod network;
+pub mod client;
+pub mod network;
